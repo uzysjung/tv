@@ -9,7 +9,7 @@ var Tv = require('../');
 
 var internals = {};
 
-internals.plugins = [Vision, Inert, Tv];
+internals.plugins = [Tv,Vision, Inert];
 
 var server = new Hapi.Server();
 server.connection({ port: 8000 });
